@@ -1,0 +1,154 @@
+<div class="adminPopupPanel">
+			<div class="heading"><span class="title">
+          <?php  
+			if($bookid['value'] !=0 ) 
+				echo "UPDATE CONTENT";
+			else 
+				echo "ADD CONTENT";
+		  ?>
+            </span></div>
+ 
+			
+				<div class="panelBody">
+					<div class="media">
+					  <div class="media-left">
+                        <?php  if($bookid['value'] !=0 ) 
+						{ ?>
+                      
+							<form action="<?php echo $this->config->item('base_url'); ?>/index.php/book_library/upload_book_thump" enctype="multipart/form-data" method="post" class="" id="book_thump_form" style="float:left;height: 180px;">
+								<!--<a  link="" id="book_thump_preview" class="book_thump_preview" href="javascript:void(0)" style="float:left;margin-top: 10px;">
+								<img class="" src="<?php echo $thump_img['value'] ; ?>" id="book_thump_uploaded_img" style="float:left;"></a>-->
+								<span class="chnPhotoActive" id="chnPhoto">
+									<span class="chnPhototext">choose</span>
+								</span>
+								<input type="file" class="" id="book_thump_img" size="1" width="1" name="book_thump_img" >
+							</form>             
+                            <?php } ?>
+					  </div>
+                      
+					  <div class="media-body">
+						<?php echo form_open_multipart($this->uri->uri_string());?>
+						<div class="form-group bookTitle row">
+                        <label class="control-label col-sm-3">Book Title :</label>
+						  <div class="col-sm-9">
+							<?php echo form_input($booktitle); ?>
+						  </div>
+                          <div  class="error_msg"><?php echo form_error($booktitle['name']); ?><?php echo isset($errors[$booktitle['name']])?$errors[$booktitle['name']]:''; ?></div>
+						</div>   
+                        <div class="form-group row">
+                        		<label class="control-label col-sm-3" >ISBN :</label>
+                              <div class="col-sm-9">
+                                <?php echo form_input($isbn); ?>
+                              </div>
+                         	 <div  class="error_msg">
+						  		<?php echo form_error($isbn['name']); ?><?php echo isset($errors[$isbn['name']])?$errors[$isbn['name']]:''; ?>
+                              </div>                        
+
+						</div>
+                        
+						<div class="form-group row">
+                        		<label class="control-label col-sm-3" >Volume :</label>
+                              <div class="col-sm-9">
+                                <?php echo form_input($volumeno); ?>
+                              </div>
+                         	 <div  class="error_msg">
+						  		<?php echo form_error($volumeno['name']); ?><?php echo isset($errors[$volumeno['name']])?$errors[$volumeno['name']]:''; ?>
+                              </div> 
+                                                      
+						</div>
+                        <!--<div class="form-group row">
+                        		<label class="control-label col-sm-3" >Price :</label>
+                              <div class="col-sm-9">
+                                <?php //echo form_input($price); ?>
+                              </div>
+                         	 <div  class="error_msg">
+						  		<?php// echo form_error($price['name']); ?><?php //echo isset($errors[$price['name']])?$errors[$price['name']]:''; ?>
+                              </div>                          
+
+						</div>  -->                   
+						<div class="form-group row Select_xml">
+                        		<label class="control-label col-sm-3" >Select xml :</label>
+                              <div class="col-sm-9">
+                                <?php echo form_input($userfile); ?>
+                              </div>
+							   <div class="error_msg1" style="color:red;"></div>
+                         	 <div  class="error_msg">
+						  		<?php echo form_error($userfile['name']); ?><?php echo isset($errors[$userfile['name']])?$errors[$userfile['name']]:''; ?>
+                              </div>                         
+
+						</div>
+						<div class="form-group btn-group row">
+						  <label class="control-label col-sm-3"></label>
+							  <div class="col-sm-9">
+								<?php echo anchor('book_library', 'CANCEL',array('class' => 'cancel_btn')); ?>
+								<?php $func='onclick= "return checkfile();"';?>
+								<?php echo form_submit('updateContent', 'UPDATE CONTENT',$func); ?>
+                                
+								 <!-- <button class="btn btn-primary cancel">CANCEL</button>
+								<input type="submit" value="upload" />
+								<button class="btn btn-primary publich">PUBLISH</button>-->
+							  </div>
+						</div>
+						<?php echo form_close(); ?>
+					  </div>
+                      
+                      
+					</div>
+				</div>
+		</div>
+        
+       <script type="text/javascript" >
+       	$(document).ready(function(e) {
+            	$('#book_thump_img').on('change', function(){  
+				//$('#book_thump_img').html('En traitement ...');
+					$('#book_thump_form').ajaxForm({
+					target : '#book_thump_preview',
+					success : UploadImagePath4Profile
+					}).submit();
+				});
+        });
+
+function UploadImagePath4Profile()
+{	
+	/*if ($.browser.msie) {
+            $('#book_thump_img').remove();
+			$('#chnPhoto').next().append('<input width="1" type="file" name="book_thump_img" size="1" id="book_thump_img" class=""');
+			setInputUploadEvent();	
+      }
+      else {
+            $('#book_thump_img').val("");
+      }*/
+	$('#book_thump_img').val("");
+	var book_thump_imgPath = $('#book_thump_uploaded_img').attr('file_path');
+	var ProfileSmallImgPath = $('#ProfileSmallUploadedImg').attr('src');
+	var ProfileUploadError = $('#book_thump_preview').text().trim();
+	if(ProfileUploadError=="")
+	{	
+		$('#book_img').val(book_thump_imgPath);
+	}
+	else if(ProfileUploadError == "SIZE-EXCEEDS")
+	{
+		alert("file size sould be lesser then 1 mb");
+	}
+	else if(ProfileUploadError == "NOT-SUPPORTABLE-FORMAT")
+	{
+		alert("Invalid file format ! please upload image format only ");
+	}
+	else if(ProfileUploadError == "EMPTY")
+	{
+		alert(ProfileUploadError);
+	}
+}		
+	function checkfile(){
+		var aa = $('#userfile').val();
+		if(aa =='')
+		{
+		$('.error_msg1').html("You did not select a file to upload.");	
+		return false;
+		}
+		
+		
+	}	
+			
+		
+       </script>

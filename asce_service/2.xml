@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<!DOCTYPE book PUBLIC \"-//NLM//DTD BITS Book Interchange DTD with OASIS and XHTML Tables v1.0 20131225//EN\" \"BITS-book-oasis1.dtd\">-->
+<book book-type="standard" xml:lang="en">
+<collection-meta>
+<!--<collection-id collection-id-type="doi">10.1061/standard<\/collection-id>-->
+<!--<edition>ASCE/SEI 7-10<\/edition>--></collection-meta>
+<book-meta>
+<!--<book-id book-id-type="bookset-doi")>10.1061/asce7<\/book-id>-->
+<!--<book-id book-id-type="doi")>10.1061/9780784412916<\/book-id>-->
+<subj-group subj-group-type="subject">
+<subject content-type="available-in-print"/>
+<subject content-type="no-chapters"/>
+<subject content-type="standards"/>
+<subject content-type="s-sei"/>
+<subject content-type="aei"/>
+<subject content-type="code"/>
+<subject content-type="sei-loads"/>
+<subject content-type="sei-seis"/>
+<subject content-type="sei-wind"/></subj-group>
+<book-title-group>
+<!--<book-title>Minimum Design Loads for Buildings and Other Structures<\/book-title>--></book-title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<!--<collab>ASCE<\/collab>--></contrib></contrib-group>
+<pub-date date-type="published" publication-format="print">
+<!--<day>01<\/day>-->
+<!--<month>10<\/month>-->
+<!--<year>2013<\/year>--></pub-date>
+<!--<isbn content-type="primary" publication-format="print")>9780784412916<\/isbn>-->
+<!--<isbn publication-format="electronic")>9780784477854<\/isbn>-->
+<publisher>
+<!--<publisher-name>American Society of Civil Engineers<\/publisher-name>-->
+<!--<publisher-loc>Reston, VA<\/publisher-loc>--></publisher>
+<!--<edition>ASCE/SEI 7-10<\/edition>-->
+<permissions>
+<!--<copyright-statement>&#x000A9; 2013 American Society of Civil Engineers<\/copyright-statement>-->
+<!--<copyright-year>2013<\/copyright-year>--></permissions></book-meta>
+<book-body>
+<book-part id="s1" xml:lang="en" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" book-part-type="chapter">
+<book-part-meta>
+<!--<book-part-id book-part-id-type="doi")>10.1061/9780784412916.ch01<\/book-part-id>-->
+<title-group>
+<label>Chapter 1</label>
+<title>General</title></title-group>
+<!--<fpage>1<\/fpage>-->
+<!--<lpage>5<\/lpage>-->
+<self-uri content-type="pdf" xlink:href="9780784412916.ch01.pdf" xmlns:xlink="http://www.w3.org/1999/xlink"></self-uri></book-part-meta>
+<body>
+<sec id="s1.1">
+<label>1.1</label>
+<title>Scope</title>
+<p>This standard provides minimum load requirements for the design of buildings and other structures that are subject to building code requirements. Loads and appropriate load combinations, which have been developed to be used together, are set forth for strength design and allowable stress design. For design strengths and allowable stress limits, design specifications for conventional structural materials used in buildings and modifications contained in this standard shall be followed.</p></sec>
+<sec id="s1.2">
+<label>1.2</label>
+<title>Definitions and Symbols</title>
+<sec id="s1.2.1">
+<label>1.2.1</label>
+<title>Definitions.</title>
+<p>The following definitions apply to the provisions of the entire standard.
+<def-list>
+<def-item>
+<term><bold>ALLOWABLE STRESS DESIGN</bold></term><x><bold>:</bold></x>
+<def>
+<p>A method of proportioning structural members such that elastically computed stresses produced in the members by nominal loads do not exceed specified allowable stresses (also called &#x0201C;working stress design&#x0201D;).</p></def></def-item>
+<def-item>
+<term><bold>AUTHORITY HAVING JURISDICTION</bold></term><x><bold>:</bold></x>
+<def>
+<p>The organization, political subdivision, office, or individual charged with the responsibility of administering and enforcing the provisions of this standard.</p></def></def-item>
+<def-item>
+<term><bold>BUILDINGS</bold></term><x><bold>:</bold></x>
+<def>
+<p>Structures, usually enclosed by walls and a roof, constructed to provide support or shelter for an intended occupancy.</p></def></def-item>
+<def-item>
+<term><bold>DESIGN STRENGTH</bold></term><x><bold>:</bold></x>
+<def>
+<p>The product of the nominal strength and a resistance factor.</p></def></def-item>
+<def-item>
+<term><bold>ESSENTIAL FACILITIES</bold></term><x><bold>:</bold></x>
+<def>
+<p>Buildings and other structures that are intended to remain operational in the event of extreme environmental loading from flood, wind, snow, or earthquakes.</p></def></def-item>
+<def-item>
+<term><bold>FACTORED LOAD</bold></term><x><bold>:</bold></x>
+<def>
+<p>The product of the nominal load and a load factor.</p></def></def-item>
+<def-item>
+<term><bold>HIGHLY TOXIC SUBSTANCE</bold></term><x><bold>:</bold></x>
+<def>
+<p>As defined in 29 CFR 1910.1200 Appendix A with Amendments as of February 1, 2000.</p></def></def-item>
+<def-item>
+<term><bold>IMPORTANCE FACTOR</bold></term><x><bold>:</bold></x>
+<def>
+<p>A factor that accounts for the degree of risk to human life, health, and welfare associated with damage to property or loss of use or functionality.</p></def></def-item>
+<def-item>
+<term><bold>LIMIT STATE</bold></term><x><bold>:</bold></x>
+<def>
+<p>A condition beyond which a structure or member becomes unfit for service and is judged either to be no longer useful for its intended function (serviceability limit state) or to be unsafe (strength limit state).</p></def></def-item>
+<def-item>
+<term><bold>LOAD EFFECTS</bold></term><x><bold>:</bold></x>
+<def>
+<p>Forces and deformations produced in structural members by the applied loads.</p></def></def-item>
+<def-item>
+<term><bold>LOAD FACTOR</bold></term><x><bold>:</bold></x>
+<def>
+<p>A factor that accounts for deviations of the actual load from the nominal load, for uncertainties in the analysis that transform the load into a load effect, and for the probability that more than one extreme load will occur simultaneously.</p></def></def-item>
+<def-item>
+<term><bold>LOADS</bold></term><x><bold>:</bold></x>
+<def>
+<p>Forces or other actions that result from the weight of all building materials, occupants and their possessions, environmental effects, differential movement, and restrained dimensional changes. Permanent loads are loads in which variations over time are rare or of small magnitude. All other loads are variable loads (see also &#x0201C;nominal loads&#x0201D;).</p></def></def-item>
+<def-item>
+<term><bold>NOMINAL LOADS</bold></term><x><bold>:</bold></x>
+<def>
+<p>The magnitudes of the loads specified in this standard for dead, live, soil, wind, snow, rain, flood, and earthquake.</p></def></def-item>
+<def-item>
+<term><bold>NOMINAL STRENGTH</bold></term><x><bold>:</bold></x>
+<def>
+<p>The capacity of a structure or member to resist the effects of loads, as determined by computations using specified material strengths and dimensions and formulas derived from accepted principles of structural mechanics or by field tests or laboratory tests of scaled models, allowing for modeling effects and differences between laboratory and field conditions.</p></def></def-item>
+<def-item>
+<term><bold>OCCUPANCY</bold></term><x><bold>:</bold></x>
+<def>
+<p>The purpose for which a building or other structure, or part thereof, is used or intended to be used.</p></def></def-item>
+<def-item>
+<term><bold>OTHER STRUCTURES</bold></term><x><bold>:</bold></x>
+<def>
+<p>Structures, other than buildings, for which loads are specified in this standard.</p></def></def-item>
+<def-item>
+<term><bold>P-DELTA EFFECT</bold></term><x><bold>:</bold></x>
+<def>
+<p>The second order effect on shears and moments of frame members induced by axial loads on a laterally displaced building frame.</p></def></def-item>
+<def-item>
+<term><bold>RESISTANCE FACTOR</bold></term><x><bold>:</bold></x>
+<def>
+<p>A factor that accounts for deviations of the actual strength from the nominal strength and the manner and consequences of failure (also called &#x0201C;strength reduction factor&#x0201D;).</p></def></def-item>
+<def-item>
+<term><bold>RISK CATEGORY</bold></term><x><bold>:</bold></x>
+<def>
+<p>A categorization of buildings and other structures for determination of flood, snow, ice, and earthquake loads based on the risk associated with unacceptable performance. See Table&#xA0;<xref ref-type="table" rid="t1.5-1">1.5-1</xref>.</p></def></def-item>
+<def-item>
+<term><bold>STRENGTH DESIGN</bold></term><x><bold>:</bold></x>
+<def>
+<p>A method of proportioning structural members such that the computed forces produced in the members by the factored loads do not exceed the member design strength (also called &#x0201C;load and resistance factor design&#x0201D;).</p></def></def-item>
+<def-item>
+<term><bold>TEMPORARY FACILITIES</bold></term><x><bold>:</bold></x>
+<def>
+<p>Buildings or other structures that are to be in service for a limited time and have a limited exposure period for environmental loadings.</p></def></def-item>
+<def-item>
+<term><bold>TOXIC SUBSTANCE</bold></term><x><bold>:</bold></x>
+<def>
+<p>As defined in 29 CFR 1910.1200 Appendix A with Amendments as of February 1, 2000.</p></def></def-item></def-list></p>
+<table-wrap id="t1.5-1" position="float">
+<label>Table 1.5-1</label>
+<caption>
+<p>Risk Category of Buildings and Other Structures for Flood, Wind, Snow, Earthquake, and Ice Loads</p></caption>
+<oasis:table frame="topbot" xmlns:oasis="http://www.niso.org/standards/z39-96/ns/oasis-exchange/table">
+<oasis:tgroup cols="2">
+<oasis:colspec colnum="1" align="left" colname="col1" colsep="0"/>
+<oasis:colspec colnum="2" align="center" colname="col2" colsep="0"/>
+<oasis:thead>
+<oasis:row>
+<oasis:entry rowsep="1">Use or Occupancy of Buildings and Structures</oasis:entry>
+<oasis:entry rowsep="1">Risk Category</oasis:entry></oasis:row></oasis:thead>
+<oasis:tbody>
+<oasis:row>
+<oasis:entry rowsep="0">Buildings and other structures that represent low risk to human life in the event of failure.</oasis:entry>
+<oasis:entry rowsep="0">I</oasis:entry></oasis:row>
+<oasis:row>
+<oasis:entry rowsep="0">All buildings and other structures except those listed in Risk Categories I, III, and IV.</oasis:entry>
+<oasis:entry rowsep="0">II</oasis:entry></oasis:row>
+<oasis:row>
+<oasis:entry rowsep="0">Buildings and other structures, the failure of which could pose a substantial risk to human life.</oasis:entry>
+<oasis:entry rowsep="0">III</oasis:entry></oasis:row>
+<oasis:row>
+<oasis:entry rowsep="0">Buildings and other structures, not included in Risk Category IV, with potential to cause a substantial economic impact and/or mass disruption of day-to-day civilian life in the event of failure.</oasis:entry>
+<oasis:entry rowsep="0"/></oasis:row>
+<oasis:row>
+<oasis:entry rowsep="0">Buildings and other structures not included in Risk Category IV (including, but not limited to, facilities that manufacture, process, handle, store, use, or dispose of such substances as hazardous fuels, hazardous chemicals, hazardous waste, or explosives) containing toxic or explosive substances where the quantity of the material exceeds a threshold quantity established by the authority having jurisdiction and is sufficient to pose a threat to the public if released.<xref rid="t1.5-1n1" ref-type="table-fn"><sup>a</sup></xref></oasis:entry>
+<oasis:entry rowsep="0"/></oasis:row>
+<oasis:row>
+<oasis:entry rowsep="0">Buildings and other structures designated as essential facilities.</oasis:entry>
+<oasis:entry rowsep="0">IV</oasis:entry></oasis:row>
+<oasis:row>
+<oasis:entry rowsep="0">Buildings and other structures, the failure of which could pose a substantial hazard to the community.</oasis:entry>
+<oasis:entry rowsep="0"/></oasis:row>
+<oasis:row>
+<oasis:entry rowsep="0">Buildings and other structures (including, but not limited to, facilities that manufacture, process, handle, store, use, or dispose of such substances as hazardous fuels, hazardous chemicals, or hazardous waste) containing sufficient quantities of highly toxic substances where the quantity of the material exceeds a threshold quantity established by the authority having jurisdiction and is sufficient to pose a threat to the public if released.<xref rid="t1.5-1n1" ref-type="table-fn"><sup>a</sup></xref></oasis:entry>
+<oasis:entry rowsep="0"/></oasis:row>
+<oasis:row>
+<oasis:entry rowsep="0">Buildings and other structures required to maintain the functionality of other Risk Category IV structures.</oasis:entry>
+<oasis:entry rowsep="0"/></oasis:row></oasis:tbody></oasis:tgroup></oasis:table>
+<table-wrap-foot><fn id="t1.5-1n1">
+<label>a</label>
+<p>Buildings and other structures containing toxic, highly toxic, or explosive substances shall be eligible for classification to a lower Risk Category if it can be demonstrated to the satisfaction of the authority having jurisdiction by a hazard assessment as described in Section&#xA0;<xref ref-type="sec" rid="s1.5.3">1.5.3</xref> that a release of the substances is commensurate with the risk associated with that Risk Category.</p></fn></table-wrap-foot></table-wrap></sec>
+<sec id="s1.2.2">
+<label>1.2.2</label>
+<title>Symbols.</title>
+<p>
+<def-list>
+<def-item>
+<term>
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:msub>
+<mml:mi mathvariant="bold-italic">F</mml:mi>
+<mml:mi mathvariant="bold-italic">x</mml:mi></mml:msub></mml:mrow></mml:math></inline-formula></term>
+<def>
+<p>A minimum design lateral force applied to level 
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mi>x</mml:mi></mml:mrow></mml:math></inline-formula> of the structure and used for purposes of evaluating structural integrity in accordance with Section&#xA0;<xref ref-type="sec" rid="s1.4.2">1.4.2</xref>.</p></def></def-item>
+<def-item>
+<term>
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:msub>
+<mml:mi mathvariant="bold-italic">W</mml:mi>
+<mml:mi mathvariant="bold-italic">x</mml:mi></mml:msub></mml:mrow></mml:math></inline-formula></term>
+<def>
+<p>The portion of the total dead load of the structure, 
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mi>D</mml:mi></mml:mrow></mml:math></inline-formula>, located or assigned to level 
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mi>x</mml:mi></mml:mrow></mml:math></inline-formula>.</p></def></def-item>
+<def-item>
+<term>
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mi mathvariant="bold-italic">D</mml:mi></mml:mrow></mml:math></inline-formula></term>
+<def>
+<p>Dead load.</p></def></def-item>
+<def-item>
+<term>
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mi mathvariant="bold-italic">L</mml:mi></mml:mrow></mml:math></inline-formula></term>
+<def>
+<p>Live load.</p></def></def-item>
+<def-item>
+<term>
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:msub>
+<mml:mi mathvariant="bold-italic">L</mml:mi>
+<mml:mi mathvariant="bold-italic">r</mml:mi></mml:msub></mml:mrow></mml:math></inline-formula></term>
+<def>
+<p>Roof live load.</p></def></def-item>
+<def-item>
+<term>
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mi mathvariant="bold-italic">N</mml:mi></mml:mrow></mml:math></inline-formula></term>
+<def>
+<p>Lateral notional load used to evaluate conformance with minimum structural integrity criteria.</p></def></def-item>
+<def-item>
+<term>
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mi mathvariant="bold-italic">R</mml:mi></mml:mrow></mml:math></inline-formula></term>
+<def>
+<p>Rain load.</p></def></def-item>
+<def-item>
+<term>
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mi mathvariant="bold-italic">S</mml:mi></mml:mrow></mml:math></inline-formula></term>
+<def>
+<p>Snow load.</p></def></def-item></def-list></p></sec></sec>
+<sec id="s1.3">
+<label>1.3</label>
+<title>Basic Requirements</title>
+<sec id="s1.3.1">
+<label>1.3.1</label>
+<title>Strength and Stiffness.</title>
+<p>Buildings and other structures, and all parts thereof, shall be designed and constructed with adequate strength and stiffness to provide structural stability, protect nonstructural components and systems, and meet the serviceability requirements of Section&#xA0;<xref ref-type="sec" rid="s1.3.2">1.3.2</xref>.</p>
+<p>Acceptable strength shall be demonstrated using one or more of the following procedures:
+<list list-type="alpha-lower">
+<list-item>
+<label>a.</label>
+<p>the strength procedures of Section&#xA0;<xref ref-type="sec" rid="s1.3.1.1">1.3.1.1</xref>,</p></list-item>
+<list-item>
+<label>b.</label>
+<p>the allowable stress procedures of Section&#xA0;<xref ref-type="sec" rid="s1.3.1.2">1.3.1.2</xref>, or</p></list-item>
+<list-item>
+<label>c.</label>
+<p>subject to the approval of the authority having jurisdiction for individual projects, the performance-based procedures of Section&#xA0;<xref ref-type="sec" rid="s1.3.1.3">1.3.1.3</xref>.</p></list-item></list></p>
+<p>It shall be permitted to use alternative procedures for different parts of a structure and for different load combinations, subject to the limitations of Chapter&#xA0;
+<related-object link-type="correction" source-id="10.1061/9780784412916" source-id-type="doi" source-type="book" document-id="10.1061/9780784412916.ch02" document-id-type="doi" document-type="chapter">2</related-object>. Where resistance to extraordinary events is considered, the procedures of Section&#xA0;
+<related-object link-type="correction" source-id="10.1061/9780784412916" source-id-type="doi" source-type="book" document-id="10.1061/9780784412916.ch02" document-id-type="doi" document-type="chapter">2.5</related-object> shall be used.</p>
+<sec id="s1.3.1.1">
+<label>1.3.1.1</label>
+<title>Strength Procedures.</title>
+<p>Structural and nonstructural components and their connections shall have adequate strength to resist the applicable load combinations of Section&#xA0;
+<related-object link-type="correction" source-id="10.1061/9780784412916" source-id-type="doi" source-type="book" document-id="10.1061/9780784412916.ch02" document-id-type="doi" document-type="chapter">2.3</related-object> of this standard without exceeding the applicable strength limit states for the materials of construction.</p></sec>
+<sec id="s1.3.1.2">
+<label>1.3.1.2</label>
+<title>Allowable Stress Procedures.</title>
+<p>Structural and nonstructural components and their connections shall have adequate strength to resist the applicable load combinations of Section&#xA0;
+<related-object link-type="correction" source-id="10.1061/9780784412916" source-id-type="doi" source-type="book" document-id="10.1061/9780784412916.ch02" document-id-type="doi" document-type="chapter">2.4</related-object> of this standard without exceeding the applicable allowable stresses for the materials of construction.</p></sec>
+<sec id="s1.3.1.3">
+<label>1.3.1.3</label>
+<title>Performance-Based Procedures.</title>
+<p>Structural and non-structural components and their connections shall be demonstrated by analysis or by a combination of analysis and testing to provide a reliability not less than that expected for similar components designed in accordance with the strength procedures of Section&#xA0;<xref ref-type="sec" rid="s1.3.1.1">1.3.1.1</xref> when subject to the influence of dead, live, environmental, and other loads. Consideration shall be given to uncertainties in loading and resistance.</p>
+<sec id="s1.3.1.3.1">
+<label>1.3.1.3.1</label>
+<title>Analysis</title>
+<p>Analysis shall employ rational methods based on accepted principles of engineering mechanics and shall consider all significant sources of deformation and resistance. Assumptions of stiffness, strength, damping, and other properties of components and connections incorporated in the analysis shall be based on approved test data or referenced standards.</p></sec>
+<sec id="s1.3.1.3.2">
+<label>1.3.1.3.2</label>
+<title>Testing</title>
+<p>Testing used to substantiate the performance capability of structural and nonstructural components and their connections under load shall accurately represent the materials, configuration, construction, loading intensity, and boundary conditions anticipated in the structure. Where an approved industry standard or practice that governs the testing of similar components exists, the test program and determination of design values from the test program shall be in accordance with those industry standards and practices. Where such standards or practices do not exist, specimens shall be constructed to a scale similar to that of the intended application unless it can be demonstrated that scale effects are not significant to the indicated performance. Evaluation of test results shall be made on the basis of the values obtained from not less than three tests, provided that the deviation of any value obtained from any single test does not vary from the average value for all tests by more than 15%. If such deviaton from the average value for any test exceeds 15%, then additional tests shall be performed until the deviation of any test from the average value does not exceed 15% or a minimum of six tests have been performed. No test shall be eliminated unless a rationale for its exclusion is given. Test reports shall document the location, the time and date of the test, the characteristics of the tested specimen, the laboratory facilities, the test configuration, the applied loading and deformation under load, and the occurrence of any damage sustained by the specimen, together with the loading and deformation at which such damage occurred.</p></sec>
+<sec id="s1.3.1.3.3">
+<label>1.3.1.3.3</label>
+<title>Documentation</title>
+<p>The procedures used to demonstrate compliance with this section and the results of analysis and testing shall be documented in one or more reports submitted to the authority having jurisdiction and to an independent peer review.</p></sec>
+<sec id="s1.3.1.3.4">
+<label>1.3.1.3.4</label>
+<title>Peer Review</title>
+<p>The procedures and results of analysis, testing, and calculation used to demonstrate compliance with the requirements of this section shall be subject to an independent peer review approved by the authority having jurisdiction. The peer review shall comprise one or more persons having the necessary expertise and knowledge to evaluate compliance, including knowledge of the expected performance, the structural and component behavior, the particular loads considered, structural analysis of the type performed, the materials of construction, and laboratory testing of elements and components to determine structural resistance and performance characteristics. The review shall include assumptions, criteria, procedures, calculations, analytical models, test setup, test data, final drawings, and reports. Upon satisfactory completion, the peer reviewers shall submit a letter to the authority having jurisdiction indicating the scope of their review and their findings.</p></sec></sec></sec>
+<sec id="s1.3.2">
+<label>1.3.2</label>
+<title>Serviceability.</title>
+<p>Structural systems, and members thereof, shall be designed to have adequate stiffness to limit deflections, lateral drift, vibration, or any other deformations that adversely affect the intended use and performance of buildings and other structures.</p></sec>
+<sec id="s1.3.3">
+<label>1.3.3</label>
+<title>Self-Straining Forces.</title>
+<p>Provision shall be made for anticipated self-straining forces arising from differential settlements of foundations and from restrained dimensional changes due to temperature, moisture, shrinkage, creep, and similar effects.</p></sec>
+<sec id="s1.3.4">
+<label>1.3.4</label>
+<title>Analysis.</title>
+<p>Load effects on individual structural members shall be determined by methods of structural analysis that take into account equilibrium, general stability, geometric compatibility, and both short- and long-term material properties. Members that tend to accumulate residual deformations under repeated service loads shall have included in their analysis the added eccentricities expected to occur during their service life.</p></sec>
+<sec id="s1.3.5">
+<label>1.3.5</label>
+<title>Counteracting Structural Actions.</title>
+<p>All structural members and systems, and all components and cladding in a building or other structure, shall be designed to resist forces due to earthquake and wind, with consideration of overturning, sliding, and uplift, and continuous load paths shall be provided for transmitting these forces to the foundation. Where sliding is used to isolate the elements, the effects of friction between sliding elements shall be included as a force. Where all or a portion of the resistance to these forces is provided by dead load, the dead load shall be taken as the minimum dead load likely to be in place during the event causing the considered forces. Consideration shall be given to the effects of vertical and horizontal deflections resulting from such forces.</p></sec></sec>
+<sec id="s1.4">
+<label>1.4</label>
+<title>General Structural Integrity</title>
+<p>All structures shall be provided with a continuous load path in accordance with the requirements of Section&#xA0;<xref ref-type="sec" rid="s1.4.2">1.4.2</xref> and shall have a complete lateral force-resisting system with adequate strength to resist the forces indicated in Section&#xA0;<xref ref-type="sec" rid="s1.4.3">1.4.3</xref>. All members of the structural system shall be connected to their supporting members in accordance with Section&#xA0;<xref ref-type="sec" rid="s1.4.4">1.4.4</xref>. Structural walls shall be anchored to diaphragms and supports in accordance with Section&#xA0;<xref ref-type="sec" rid="s1.4.5">1.4.5</xref>. The effects on the structure and its components due to the forces stipulated in this section shall be taken as the notional load, 
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mi>N</mml:mi></mml:mrow></mml:math></inline-formula>, and combined with the effects of other loads in accordance with the load combinations of Section&#xA0;<xref ref-type="sec" rid="s1.4.1">1.4.1</xref>. Where material resistance depends on load duration, notional loads are permitted to be taken as having a duration of 10 minutes. Structures designed in conformance with the requirements of this standard for Seismic Design Categories B, C, D, E, or F shall be deemed to comply with the requirements of Sections&#xA0;<xref ref-type="sec" rid="s1.4.2">1.4.2</xref>, <xref ref-type="sec" rid="s1.4.3">1.4.3</xref>, <xref ref-type="sec" rid="s1.4.4">1.4.4</xref> and <xref ref-type="sec" rid="s1.4.5">1.4.5</xref>.</p>
+<sec id="s1.4.1">
+<label>1.4.1</label>
+<title>>Load Combinations of Integrity Loads.</title>
+<p>The notional loads, 
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mi>N</mml:mi></mml:mrow></mml:math></inline-formula>, specified in Sections&#xA0;<xref ref-type="sec" rid="s1.4.2">1.4.2</xref> through <xref ref-type="sec" rid="s1.4.5">1.4.5</xref> shall be combined with other loads in accordance with Section&#xA0;<xref ref-type="sec" rid="s1.4.1.1">1.4.1.1</xref> for strength design and <xref ref-type="sec" rid="s1.4.1.2">1.4.1.2</xref> for allowable stress design.</p>
+<sec id="s1.4.1.1">
+<label>1.4.1.1</label>
+<title>Strength Design Notional Load Combinations.</title>
+<p>
+<list list-type="alpha-lower">
+<list-item>
+<label>a.</label>
+<p>
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mn>1.2</mml:mn>
+<mml:mi>D</mml:mi>
+<mml:mo>+</mml:mo>
+<mml:mn>1.0</mml:mn>
+<mml:mi>N</mml:mi>
+<mml:mo>+</mml:mo>
+<mml:mi>L</mml:mi>
+<mml:mo>+</mml:mo>
+<mml:mn>0.2</mml:mn>
+<mml:mi>S</mml:mi></mml:mrow></mml:math></inline-formula></p></list-item>
+<list-item>
+<label>b.</label>
+<p>
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mn>0.9</mml:mn>
+<mml:mi>D</mml:mi>
+<mml:mo>+</mml:mo>
+<mml:mn>1.0</mml:mn>
+<mml:mi>N</mml:mi></mml:mrow></mml:math></inline-formula></p></list-item></list></p></sec>
+<sec id="s1.4.1.2">
+<label>1.4.1.2</label>
+<title>Allowable Stress Design Notional Load Combinations.</title>
+<p>
+<list list-type="alpha-lower">
+<list-item>
+<label>a.</label>
+<p>
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mi>D</mml:mi>
+<mml:mo>+</mml:mo>
+<mml:mn>0.7</mml:mn>
+<mml:mi>N</mml:mi></mml:mrow></mml:math></inline-formula></p></list-item>
+<list-item>
+<label>b.</label>
+<p>
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mi>D</mml:mi>
+<mml:mo>+</mml:mo>
+<mml:mn>0.75</mml:mn>
+<mml:mrow>
+<mml:mo stretchy="false">(</mml:mo>
+<mml:mn>0.7</mml:mn>
+<mml:mi>N</mml:mi>
+<mml:mo stretchy="false">)</mml:mo></mml:mrow>
+<mml:mo>+</mml:mo>
+<mml:mn>0.75</mml:mn>
+<mml:mi>L</mml:mi>
+<mml:mo>+</mml:mo>
+<mml:mn>0.75</mml:mn>
+<mml:mrow>
+<mml:mo stretchy="false">(</mml:mo>
+<mml:msub>
+<mml:mi>L</mml:mi>
+<mml:mi mathvariant="normal">r</mml:mi></mml:msub>
+<mml:mtext>&#x000A0;or&#x000A0;</mml:mtext>
+<mml:mi>S</mml:mi>
+<mml:mtext>&#x000A0;or&#x000A0;</mml:mtext>
+<mml:mi>R</mml:mi>
+<mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math></inline-formula></p></list-item>
+<list-item>
+<label>c.</label>
+<p>
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mn>0.6</mml:mn>
+<mml:mi>D</mml:mi>
+<mml:mo>+</mml:mo>
+<mml:mn>0.7</mml:mn>
+<mml:mi>N</mml:mi></mml:mrow></mml:math></inline-formula></p></list-item></list></p></sec></sec>
+<sec id="s1.4.2">
+<label>1.4.2</label>
+<title>Load Path Connections.</title>
+<p>All parts of the structure between separation joints shall be interconnected to form a continuous path to the lateral force-resisting system, and the connections shall be capable of transmitting the lateral forces induced by the parts being connected. Any smaller portion of the structure shall be tied to the remainder of the structure with elements having the strength to resist a force of not less than 5% of the portion&#x02019;s weight.</p></sec>
+<sec id="s1.4.3">
+<label>1.4.3</label>
+<title>Lateral Forces.</title>
+<p>Each structure shall be analyzed for the effects of static lateral forces applied independently in each of two orthogonal directions. In each direction, the static lateral forces at all levels shall be applied simultaneously. For purposes of analysis, the force at each level shall be determined using Eq.&#xA0;<xref ref-type="disp-formula" rid="d1.4-1">1.4-1</xref> as follows:
+<disp-formula id="d1.4-1">
+<mml:math display="block">
+<mml:mrow>
+<mml:msub>
+<mml:mi>F</mml:mi>
+<mml:mi>x</mml:mi></mml:msub>
+<mml:mo>=</mml:mo>
+<mml:mn>0.01</mml:mn>
+<mml:mtext>&#x000A0;</mml:mtext>
+<mml:msub>
+<mml:mi>W</mml:mi>
+<mml:mi>x</mml:mi></mml:msub></mml:mrow></mml:math>
+<label><x>(</x>1.4-1<x>)</x></label></disp-formula>where
+<def-list>
+<def-item>
+<term>
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:msub>
+<mml:mi>F</mml:mi>
+<mml:mi>x</mml:mi></mml:msub>
+<mml:mo>=</mml:mo></mml:mrow></mml:math></inline-formula></term>
+<def>
+<p>the design lateral force applied at story 
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mi>x</mml:mi></mml:mrow></mml:math></inline-formula> and</p></def></def-item>
+<def-item>
+<term>
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:msub>
+<mml:mi>W</mml:mi>
+<mml:mi>x</mml:mi></mml:msub>
+<mml:mo>=</mml:mo></mml:mrow></mml:math></inline-formula></term>
+<def>
+<p>the portion of the total dead load of the structure, 
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mi>D</mml:mi></mml:mrow></mml:math></inline-formula>, located or assigned to level 
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mi>x</mml:mi></mml:mrow></mml:math></inline-formula>.</p></def></def-item></def-list></p>
+<p>Structures explicitly designed for stability, including second-order effects, shall be deemed to comply with the requirements of this section.</p></sec>
+<sec id="s1.4.4">
+<label>1.4.4</label>
+<title>Connection to Supports.</title>
+<p>A positive connection for resisting a horizontal force acting parallel to the member shall be provided for each beam, girder, or truss either directly to its supporting elements or to slabs designed to act as diaphragms. Where the connection is through a diaphragm, the member&#x02019;s supporting element shall also be connected to the diaphragm. The connection shall have the strength to resist a force of 5% of the unfactored dead load plus live load reaction imposed by the supported member on the supporting member.</p></sec>
+<sec id="s1.4.5">
+<label>1.4.5</label>
+<title>Anchorage of Structural Walls.</title>
+<p>Walls that provide vertical load bearing or lateral shear resistance for a portion of the structure shall be anchored to the roof and all floors and members that provide lateral support for the wall or that are supported by the wall. The anchorage shall provide a direct connection between the walls and the roof or floor construction. The connections shall be capable of resisting a strength level horizontal force perpendicular to the plane of the wall equal to 0.2 times the weight of the wall tributary to the connection, but not less than 5 psf (
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:mn>0.24</mml:mn>
+<mml:mtext>&#x000A0;</mml:mtext>
+<mml:mi mathvariant="normal">kN</mml:mi>
+<mml:mo>&#47;</mml:mo>
+<mml:msup>
+<mml:mi mathvariant="normal">m</mml:mi>
+<mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:math></inline-formula>).</p></sec>
+<sec id="s1.4.6">
+<label>1.4.6</label>
+<title>Extraordinary Loads and Events.</title>
+<p>When considered, design for resistance to extraordinary loads and events shall be in accordance with the procedures of Section&#xA0;
+<related-object link-type="correction" source-id="10.1061/9780784412916" source-id-type="doi" source-type="book" document-id="10.1061/9780784412916.ch02" document-id-type="doi" document-type="chapter">2.5</related-object>.</p></sec></sec>
+<sec id="s1.5">
+<label>1.5</label>
+<title>Classification of Buildings and Other Structures</title>
+<sec id="s1.5.1">
+<label>1.5.1</label>
+<title>Risk Categorization.</title>
+<p>Buildings and other structures shall be classified, based on the risk to human life, health, and welfare associated with their damage or failure by nature of their occupancy or use, according to Table&#xA0;<xref ref-type="table" rid="t1.5-1">1.5-1</xref> for the purposes of applying flood, wind, snow, earthquake, and ice provisions. Each building or other structure shall be assigned to the highest applicable risk category or categories. Minimum design loads for structures shall incorporate the applicable importance factors given in Table&#xA0;<xref ref-type="table" rid="t1.5-2">1.5-2</xref>, as required by other sections of this standard. Assignment of a building or other structure to multiple risk categories based on the type of load condition being evaluated (e.g., snow or seismic) shall be permitted.</p>
+<table-wrap id="t1.5-2" position="float">
+<label>Table 1.5-2</label>
+<caption>
+<p>Importance Factors by Risk Category of Buildings and Other Structures for Snow, Ice, and Earthquake Loads<xref rid="t1.5-2n1" ref-type="table-fn"><sup>a</sup></xref></p></caption>
+<oasis:table frame="topbot" xmlns:oasis="http://www.niso.org/standards/z39-96/ns/oasis-exchange/table">
+<oasis:tgroup cols="5">
+<oasis:colspec colnum="1" align="center" colname="col1" colsep="0"/>
+<oasis:colspec colnum="2" align="center" colname="col2" colsep="0"/>
+<oasis:colspec colnum="3" align="center" colname="col3" colsep="0"/>
+<oasis:colspec colnum="4" align="center" colname="col4" colsep="0"/>
+<oasis:colspec colnum="5" align="center" colname="col5" colsep="0"/>
+<oasis:thead>
+<oasis:row>
+<oasis:entry rowsep="1">Risk Category from Table&#xA0;<xref ref-type="table" rid="t1.5-1">1.5-1</xref></oasis:entry>
+<oasis:entry rowsep="1">Snow Importance Factor, 
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:msub>
+<mml:mi>I</mml:mi>
+<mml:mi>s</mml:mi></mml:msub></mml:mrow></mml:math></inline-formula></oasis:entry>
+<oasis:entry rowsep="1">Ice Importance Factor&#x02014;Thickness, 
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:msub>
+<mml:mi>I</mml:mi>
+<mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:math></inline-formula></oasis:entry>
+<oasis:entry rowsep="1">Ice Importance Factor&#x02014;Wind, 
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:msub>
+<mml:mi>I</mml:mi>
+<mml:mi>w</mml:mi></mml:msub></mml:mrow></mml:math></inline-formula></oasis:entry>
+<oasis:entry rowsep="1">Seismic Importance Factor, 
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:msub>
+<mml:mi>I</mml:mi>
+<mml:mi>e</mml:mi></mml:msub></mml:mrow></mml:math></inline-formula></oasis:entry></oasis:row></oasis:thead>
+<oasis:tbody>
+<oasis:row>
+<oasis:entry rowsep="0">I</oasis:entry>
+<oasis:entry rowsep="0">0.80</oasis:entry>
+<oasis:entry rowsep="0">0.80</oasis:entry>
+<oasis:entry rowsep="0">1.00</oasis:entry>
+<oasis:entry rowsep="0">1.00</oasis:entry></oasis:row>
+<oasis:row>
+<oasis:entry rowsep="0">II</oasis:entry>
+<oasis:entry rowsep="0">1.00</oasis:entry>
+<oasis:entry rowsep="0">1.00</oasis:entry>
+<oasis:entry rowsep="0">1.00</oasis:entry>
+<oasis:entry rowsep="0">1.00</oasis:entry></oasis:row>
+<oasis:row>
+<oasis:entry rowsep="0">III</oasis:entry>
+<oasis:entry rowsep="0">1.10</oasis:entry>
+<oasis:entry rowsep="0">1.25</oasis:entry>
+<oasis:entry rowsep="0">1.00</oasis:entry>
+<oasis:entry rowsep="0">1.25</oasis:entry></oasis:row>
+<oasis:row>
+<oasis:entry rowsep="0">IV</oasis:entry>
+<oasis:entry rowsep="0">1.20</oasis:entry>
+<oasis:entry rowsep="0">1.25</oasis:entry>
+<oasis:entry rowsep="0">1.00</oasis:entry>
+<oasis:entry rowsep="0">1.50</oasis:entry></oasis:row></oasis:tbody></oasis:tgroup></oasis:table>
+<table-wrap-foot><fn id="t1.5-2n1">
+<label>a</label>
+<p>The component importance factor, 
+<inline-formula>
+<mml:math display="inline">
+<mml:mrow>
+<mml:msub>
+<mml:mi>I</mml:mi>
+<mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:math></inline-formula>, applicable to earthquake loads, is not included in this table because it depends on the importance of the individual component rather than that of the building as a whole, or its occupancy. Refer to Section&#xA0;<xref rid="s1.3.1.3" ref-type="sec">1.3.1.3</xref>.</p></fn></table-wrap-foot></table-wrap>
+<p>When the building code or other referenced standard specifies an Occupancy Category, the Risk Category shall not be taken as lower than the Occupancy Category specified therein.</p></sec>
+<sec id="s1.5.2">
+<label>1.5.2</label>
+<title>Multiple Risk Categories.</title>
+<p>Where buildings or other structures are divided into portions with independent structural systems, the classification for each portion shall be permitted to be determined independently. Where building systems, such as required egress, HVAC, or electrical power, for a portion with a higher risk category pass through or depend on other portions of the building or other structure having a lower risk category, those portions shall be assigned to the higher risk category.</p></sec>
+<sec id="s1.5.3">
+<label>1.5.3</label>
+<title>Toxic, Highly Toxic, and Explosive Substances.</title>
+<p>Buildings and other structures containing toxic, highly toxic, or explosive substances are permitted to be classified as Risk Category II structures if it can be demonstrated to the satisfaction of the authority having jurisdiction by a hazard assessment as part of an overall risk management plan (RMP) that a release of the toxic, highly toxic, or explosive substances is not sufficient to pose a threat to the public.</p>
+<p>To qualify for this reduced classification, the owner or operator of the buildings or other structures containing the toxic, highly toxic, or explosive substances shall have an RMP that incorporates three elements as a minimum: a hazard assessment, a prevention program, and an emergency response plan.</p>
+<p>As a minimum, the hazard assessment shall include the preparation and reporting of worst-case release scenarios for each structure under consideration, showing the potential effect on the public for each. As a minimum, the worst-case event shall include the complete failure (instantaneous release of entire contents) of a vessel, piping system, or other storage structure. A worst-case event includes (but is not limited to) a release during the design wind or design seismic event. In this assessment, the evaluation of the effectiveness of subsequent measures for accident mitigation shall be based on the assumption that the complete failure of the primary storage structure has occurred. The offsite impact shall be defined in terms of population within the potentially affected area. To qualify for the reduced classification, the hazard assessment shall demonstrate that a release of the toxic, highly toxic, or explosive substances from a worst-case event does not pose a threat to the public outside the property boundary of the facility.</p>
+<p>As a minimum, the prevention program shall consist of the comprehensive elements of process safety management, which is based upon accident prevention through the application of management controls in the key areas of design, construction, operation, and maintenance. Secondary containment of the toxic, highly toxic, or explosive substances (including, but not limited to, double wall tank, dike of sufficient size to contain a spill, or other means to contain a release of the toxic, highly toxic, or explosive substances within the property boundary of the facility and prevent release of harmful quantities of contaminants to the air, soil, ground water, or surface water) are permitted to be used to mitigate the risk of release. Where secondary containment is provided, it shall be designed for all environmental loads and is not eligible for this reduced classification. In hurricane-prone regions, mandatory practices and procedures that effectively diminish the effects of wind on critical structural elements or that alternatively protect against harmful releases during and after hurricanes are permitted to be used to mitigate the risk of release.</p>
+<p>As a minimum, the emergency response plan shall address public notification, emergency medical treatment for accidental exposure to humans, and procedures for emergency response to releases that have consequences beyond the property boundary of the facility. The emergency response plan shall address the potential that resources for response could be compromised by the event that has caused the emergency.</p></sec></sec>
+<sec id="s1.6">
+<label>1.6</label>
+<title>Additions and Alterations to Existing Structures</title>
+<p>When an existing building or other structure is enlarged or otherwise altered, structural members affected shall be strengthened if necessary so that the factored loads defined in this document will be supported without exceeding the specified design strength for the materials of construction. When using allowable stress design, strengthening is required when the stresses due to nominal loads exceed the specified allowable stresses for the materials of construction.</p></sec>
+<sec id="s1.7">
+<label>1.7</label>
+<title>Load Tests</title>
+<p>A load test of any construction shall be conducted when required by the authority having jurisdiction whenever there is reason to question its safety for the intended use.</p></sec>
+<sec id="s1.8">
+<label>1.8</label>
+<title>Consensus Standards and Other Referenced Documents</title>
+<p>This section lists the consensus standards and other documents that are adopted by reference within this chapter:
+<list list-type="simple">
+<title>OSHA</title>
+<list-item>
+<p>Occupational Safety and Health Administration</p>
+<p>200 Constitution Avenue, NW</p>
+<p>Washington, DC 20210
+<list list-type="simple">
+<list-item>
+<p>Section&#xA0;<xref ref-type="sec" rid="s1.2">1.2</xref></p>
+<p>
+<mixed-citation>
+<collab>OSHA Standards for General Industry</collab><x>, </x>
+<source>29 CFR (Code of Federal Regulations) Part 1910.1200. Appendix A with Amendments as of February 1, 2000</source><x>, </x>
+<!--<publisher-name>United States Department of Labor, Occupational Safety and Health Administration<\/publisher-name>--><x>, </x>
+<!--<publisher-loc>Washington, DC<\/publisher-loc>--><x>, </x>
+<!--<year>2005<\/year>--></mixed-citation></p></list-item></list></p></list-item></list></p></sec></body></book-part></book-body></book>

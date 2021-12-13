@@ -1,0 +1,18 @@
+alter table m_chapter 
+   add column m_chplabelid varchar(100) NULL after m_chplabel
+
+alter table `m_volume` 
+   add column `m_updatedbyuser` varchar(100) NULL after `m_volauthor`, 
+   add column `m_createdbyuser` varchar(100) NULL after `m_updatedbyuser`
+   
+   ALTER TABLE `m_volume` ADD `m_volnumber` VARCHAR( 100 ) NOT NULL AFTER `m_volbokid`
+   ALTER TABLE `m_volume` DROP `m_volpageid`;
+   
+   Highlight
+   ==========
+   
+   ALTER TABLE `t_txthighlight` ADD `t_txhchapid` VARCHAR( 100 ) NOT NULL AFTER `t_txhpgeid` 
+
+  Section
+========== 
+  update m_section set m_seclinkpage = m_seclabel

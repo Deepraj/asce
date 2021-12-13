@@ -1,0 +1,8 @@
+RewriteEngine on 
+RewriteCond %{HTTP_HOST} ^(www.)?beta.asce.mpstechnologies.com$ 
+RewriteCond %{REQUEST_URI} !^/products/ 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$ /products/$1 
+RewriteCond %{HTTP_HOST} ^(www.)?beta.asce.mpstechnologies.com$ 
+RewriteRule ^(/)?$ products/index.php [L]

@@ -1,0 +1,88 @@
+
+		<div class="panel panel-default history">
+		  <div class="panel-heading ">HISTORY<span class="fa close_btn pull-right" title="CLOSE"></span></div>
+		  <div class="panel-body">
+                <div class="radio">
+                   <label>Viewing:</label>
+                   <select id="dropdownid" class="dropdownid" onchange="selecthistory(this.value)">
+                       <option value="current_edition">Errata</option>
+                       <option value="diff_edition">Version History</option>
+                       <option value="supplements">Supplements</option>
+                   </select>
+                <div class="leaverrata"> 
+                        <label>
+                            <input type="checkbox"  name="leave_corrections" id="leave_corrections" value="current_chapter">Leave errata on screen
+                        </label>
+                    </div>
+                </div>
+                <div class="radio">
+                <!--<label></label>-->
+                  </div>
+                
+<!--			<div class="radio">
+			<label><input type="checkbox"  name="leave_corrections" id="leave_corrections" value="current_chapter">Leave corrections on screen</label></label>
+			</div>
+			<div class="radio">
+			<label><button id="clear_form" name="clear_form" class="btn btn-primary cancel">Clear Form</button></label></label>
+			</div>
+--                      -->
+			
+			<div class="radio">
+			<label><input type="radio"  name="history_rdo_btn" value="current_chapter" id="current_chapter" checked="checked">Current Chapter</label></label>
+			</div>
+			<div class="radio">
+			    <label><input type="radio" name="history_rdo_btn" value="all_chapter">All Chapters</label>
+			</div>
+			<div class="radio hide">
+			 <label><input type="radio" id="history_rdo_btn_rdte" name="history_rdo_btn_rdt" value="current_edition" checked="checked">Errata to Current Version</label></label> 
+			</div>
+			<div class="radio hide">
+			 <label><input type="radio" id="history_rdo_btn_rdt" name="history_rdo_btn_rdt" value="diff_edition">Comparison to Previous Version</label>
+                        <input type="radio" id="history_rdo_btn_rdt_sup" name="history_rdo_btn_rdt" value="diff_edition">
+                        </div>
+<!--			<label class="pull-left">From : </label>
+			<div class="input-group date_from">
+				<input type="text" class="form-control" placeholder="SEARCH" aria-describedby="calander-addon1" id='from_date' readonly="readonly">
+				<span class="input-group-addon" id="calander-addon1"><span class="glyphicon glyphicon-calendar" id="datepicker-history-from" ></span></span>
+			</div>
+			<label class="pull-left">To : </label>
+			<div class="input-group date_to">	
+				<input type="text" class="form-control" placeholder="SEARCH" aria-describedby="calander-addon2" id='to_date' readonly="readonly">
+				<span class="input-group-addon" id="calander-addon2"><span class="glyphicon glyphicon-calendar" id="datepicker-history-to"></span></span>
+			</div>-->
+	 	 </div>
+		</div>
+		
+		
+		
+		<div class="panel panel-default history_result">
+		  <div class="panel-heading b_blue">HISTORY RESULTS</div>
+		  <div class="panel-data">
+	 	 </div>
+		</div>
+
+
+<script>
+    function selecthistory(curvalue){
+        if(curvalue=='current_edition'){
+            //$('.leaverrata').hide();
+            //$('#history_rdo_btn_rdte').trigger('click');
+            document.getElementById("history_rdo_btn_rdte").click();
+        }else if(curvalue=='diff_edition'){
+            //$('.leaverrata').show();
+            //$('.leaverrata').hide();
+            //$('#history_rdo_btn_rdt').trigger('click');
+            document.getElementById("history_rdo_btn_rdt").click();
+        }else{
+            //$('.leaverrata').hide();
+            //$('#history_rdo_btn_rdt_sup').trigger('click');
+            document.getElementById("history_rdo_btn_rdt_sup").click();
+        }
+        //alert(curvalue);
+    }
+    $( document ).ready(function() {
+        document.getElementById("history_rdo_btn_rdte").click();
+        $('.leaverrata').hide();
+    });
+</script>
+

@@ -1,0 +1,245 @@
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary, .btn-primary.focus, .btn-primary:focus{background-color:#004A8B !important; border-color:#004A8B;}
+/*common style start from here*/
+.bgGray{background-color:#e6e7e8;}
+.color-secondary {color: #a5daec;}
+.color-white {color: #fff;}
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
+.p10{padding:10px;}
+.greenLink{color:#41ad49;}
+.heading{margin:0;padding:0;letter-spacing:-0.01em}
+.nopadding{padding:0;}
+.nomargin{margin:0 !important;}
+.blackLink{color:#121212;font-weight:bold;}
+.paddingTB10{padding-top:10px;padding-bottom:10px;}
+.margin0{margin:0;}
+	a{color:#337ab7;text-decoration:none;transition: all 0.4s; -moz-transition: all 0.4s; -webkit-transition: all 0.4s; -o-transition: all 0.4s;}
+	a:hover{color:#007aff;text-decoration:none;}
+h4{color:#004a8b;margin:0;padding:10px 0;line-height:1.5em}
+.h5{ color:#004a8b;}
+.ul{margin:0;padding:0;margin-bottom:10px;}
+.ul li{margin-bottom:5px;margin-left:15px;}
+
+
+
+/*header start from here*/
+.header-bg {
+    background: #0C5FA8;
+    border-radius: 0px;
+}
+.logo {padding-top: 10px;}
+
+.welcomeMsg {
+    padding-top: 5px;
+    font-size: 13px;
+}
+.welcomeText {
+    font-weight: 700;
+    color: #a5daec;
+    font-size: 13px;
+}
+
+
+/*footer start from here*/
+.footer-bg {
+    background: #0C5FA8;
+    border-radius: 0px;
+}
+
+.footer-bg a {
+    color: #f4f8f9;
+}
+
+
+/*common style End from here*/
+
+.banner-caption{align-items: center; bottom: 20px; display: flex;  height: 100%;  justify-content: center; left: 10%;  position: absolute; right: 10%; text-align: center; top: 20px;}
+.bannerContent{font-size:40px;color:#0c5fa8;font-weight:bold}
+.bannerBtn{background-color:#0c5fa8;border-radius:20px;padding:10px 70px;color:#fff;font-size:18px;font-weight:bold;}
+.bannerBtn:hover{color:#fff; background: #004A8B; text-decoration:none;}
+.bannerBtn2{background-color:#fff;border-radius:20px;padding:10px 70px;color:#333;font-size:18px;font-weight:bold;}
+.bannerBtn2:hover {color:#333; background: #e7e8ea; text-decoration:none;}
+
+.mainContainer{width:100%;float:left;background:#e9f1fb;padding:20px 0;}
+.bookshelf{margin-right:30px;float:right;}
+.myaccount {float:right}
+.myaccount ul li{border-bottom:1px solid #dedede;padding-bottom:5px;margin-bottom:5px;padding-left:15px;position:relative;}
+.myaccount ul li span.glyphicon-user{position:absolute;top:2px;left:-3px;}
+.custForm{background:#fff;padding:10px;float:left;width:100%;}
+
+footer{padding:40px 0;float:left;width:100%;}
+
+.btn-primary{background-color:#337ab7;border:1px solid #2e6da4;transition: all 0.4s; -moz-transition: all 0.4s; -webkit-transition: all 0.4s; -o-transition: all 0.4s;}
+.btn-primary:hover{background-color:#004A8B;border:1px solid #004A8B;}
+/*inner page css start*/
+.bookBox{margin-bottom:20px;}
+.booknameSection{background:#585858;  color:#fff;padding:5px;}
+.booknameSection h4{margin:0;padding:0 10px ;color:#fff;}
+.addSection{width:100%;float:left;background:#abadb0;height:600px;text-align:center;padding-top:50%;margin-top:20px;}
+.bookBox p{margin:0 0 10px 0;padding:0;letter-spacing:-0.01em}
+.bookBox ul{margin:0;padding:0;}
+.bookBox ul li{margin:0 0 0 15px;padding:0;letter-spacing:-0.01em}
+/*inner page css END*/
+/*inner2 page css START*/
+.rightSection{width:100%;float:left;}
+
+
+
+.prod_desc {
+    display: block;
+    margin: auto;
+    background: #E0E0E0;
+    color: #121111;
+    height: 132px;
+    padding: 42px 0px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    vertical-align: middle;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+    text-align: -webkit-center;
+    text-align: center;
+}
+/*Colored Content Boxes
+------------------------------------*/
+i.icon-2x {
+    font-size: 30px;
+}
+.color-light {
+    color: #FFFFFF;
+}
+.servive-block {
+  padding: 20px 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.servive-block p,
+.servive-block h2 {
+  color: #fff;
+}
+
+.servive-block h2 a:hover{
+  text-decoration: none;
+}
+
+.servive-block-light,
+.servive-block-default {
+  background: #fafafa;
+  border: solid 1px #eee; 
+}
+
+.servive-block-default:hover {
+  box-shadow: 0 0 8px #eee;
+}
+
+.servive-block-light p,
+.servive-block-light h2,
+.servive-block-default p,
+.servive-block-default h2 {
+  color: #555;
+}
+
+ 
+.servive-block-red {
+  background: #e74c3c;
+}
+.servive-block-sea {
+  background: #1abc9c;
+}
+ 
+.servive-block-yellow {
+  background: #f1c40f;
+}
+ 
+.servive-block-dark-blue {
+  background: #4765a0;
+}
+/*inner2 page css END*/
+/*responsive css start*/
+@media only screen and (max-width: 480px){
+	.navbar-toggle .icon-bar{background:#000;}
+	.bannerContent{font-size:16px;}
+	.bannerBtn{padding: 2px 20px;font-size: 14px;}
+	.carousel-indicators li { width: 7px;  height: 7px;}
+	.carousel-indicators .active { width: 7px;  height: 7px;	}
+	.carousel-indicators{bottom:-10px;}
+	.banner-caption{top:0;}
+	.navbar-right{margin-top:20px;}
+	.logo{text-align:center;}
+	.logo img{width:80%;}
+	.myaccount  {display:inline-block;float:none;}
+	.welcomeMsg{text-align:center;}
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 980px) {	
+}
+
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+	
+}
+
+#popup-custom .modal-header{
+   
+    background: #3176b1;
+    color: #fff;
+}
+
+#popup-custom .close {
+    border: 1px solid #fff;
+    padding: 2px 10px;
+    font-size: 28px;
+	    color: #bcd2e4;
+}
+#popup-custom .modal-body {
+    background: #d9edf7;
+	text-align:center;
+}
+
+#popup-custom .modal-footer {
+    background: #d9edf7;
+	text-align:center;
+	border: none;
+}
+
+
+/*ashwani start*/
+.sidebar-wrapper {
+    text-align: left;
+    border: 2px solid #969696;
+    border-radius: 4px;
+}
+.sidebar-wrapper h4 {
+    color: #333;
+    font-weight: 700;
+	font-size:14px;
+	padding: 0;
+}
+
+.d-flex {
+    display: flex;    
+}
+.justify-content-between{   
+    justify-content: space-between;
+}
+.py-2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.my-4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pl-3 {
+    padding-left: 10px;
+   
+}
+.sidebar-wrapper ul.Link-List {
+    margin-left: 15px;
+}

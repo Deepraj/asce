@@ -1,0 +1,4 @@
+
+/**************************************** Print POPUP *************************************************/
+
+@media screen and (-ms-high-contrast:active), all and (-ms-high-contrast:none){#print_popup .chap_label {top: 3px!important;}} /***only for ie10  css****/

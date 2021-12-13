@@ -1,0 +1,47 @@
+		<div class="panel panel-default bookmark_add">
+			  <div class="panel-heading"><span class="fa close_btn pull-right"></span></div>
+			  <div class="panel-body">
+				  <form role="form">
+					<!--<div class="radio">
+					  <label><input type="radio" name="bookmark_rdo_btn">Current Chapter</label>
+					</div>
+					<div class="radio">
+					  <label><input type="radio" name="bookmark_rdo_btn">All Chapter</label>
+					</div>
+					<div class="radio">
+					  <label class="filter_chapter">
+						<input type="radio" name="bookmark_radio_btn" id="current">
+						<span class="current">Current Chapter</span>
+						<input type="radio" id="all" checked="" name="bookmark_radio_btn">
+						<span class="all">All Chapter</span></label>
+					</div>-->
+
+					<div class="radio">
+					  <label for="current_chap"><input type="radio" name="bookmark_radio_btn" id="current_chap"><span class="current"></span></label>
+					  <label for="all_chap"><input type="radio" id="all_chap" checked="" name="bookmark_radio_btn"><span class="all"></span></label>
+					</div>
+
+					<div class="form-group">
+					  <textarea class="form-control" rows="5" maxlength="50" id="comment"></textarea>
+					</div>
+					<button type="button" class="btn btn-primary add_btn"></button>
+				  </form>
+				<div class="search_area">
+					<input type="text" class="form-control">
+					<span class="clear"><i class="fa fa-times"></i></span>
+				</div>
+			  </div>
+		</div> 
+		<div class="table-responsive bookmark_list">          
+		  <table class="table  table-condensed">
+			<thead class="b_blue">
+			  <tr>
+				<th></th>
+				<th></th>
+				<th></th>
+			  </tr>
+			</thead>
+			<tbody class="bookmark_list_container">
+			</tbody>
+		  </table>
+		  </div>

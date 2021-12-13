@@ -1,0 +1,49 @@
+alter table m_chapter 
+   add column m_chplabelid varchar(100) NULL after m_chplabel
+
+alter table `m_volume` 
+   add column `m_updatedbyuser` varchar(100) NULL after `m_volauthor`, 
+   add column `m_createdbyuser` varchar(100) NULL after `m_updatedbyuser`
+   
+   ALTER TABLE `m_volume` ADD `m_volnumber` VARCHAR( 100 ) NOT NULL AFTER `m_volbokid`
+   ALTER TABLE `m_volume` DROP `m_volpageid`;
+   
+   Highlight
+   ==========
+   
+   ALTER TABLE `t_txthighlight` ADD `t_txhchapid` VARCHAR( 100 ) NOT NULL AFTER `t_txhpgeid` 
+
+  Section
+========== 
+  update m_section set m_seclinkpage = m_seclabel
+  
+  ALTER TABLE `t_txthighlight` CHANGE `t_txhdata` `t_txhparaid` MEDIUMTEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL 
+
+ALTER TABLE `t_txthighlight` CHANGE `t_txhseltext` `t_txhseltext` VARCHAR( 1000 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL
+
+ALTER TABLE `t_bookmark` ADD `t_bmksecid` VARCHAR( 100 ) NOT NULL AFTER `t_bmkchapid`
+
+ALTER TABLE `t_txthighlight` ADD `t_txhcolorcode` VARCHAR( 100 ) NOT NULL AFTER `t_txhtagname` 
+
+CREATE TABLE m_pages (
+  m_pageid int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+  m_page_url text NOT NULL,
+  m_pagetitle text NOT NULL,
+  m_pagecontent text NOT NULL,
+  m_pageupdated datetime NOT NULL,
+  PRIMARY KEY  (m_pageid),
+  FULLTEXT KEY content (m_pagecontent)
+) ENGINE=MyISAM
+
+
+ALTER TABLE `m_book` CHANGE `m_createdbyuser` `m_createdby` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+CHANGE `m_updatedbyuser` `m_updatedby` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL 
+
+ALTER TABLE `m_volume` CHANGE `m_updatedbyuser` `m_updatedby` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL ,
+CHANGE `m_createdbyuser` `m_createdby` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL 
+
+ALTER TABLE `m_chapter` CHANGE `m_createdbyuser` `m_createdby` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+CHANGE `m_updatedbyuser` `m_updatedby` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL 
+
+ALTER TABLE `m_section` CHANGE `m_createdbyuser` `m_createdby` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+CHANGE `m_updatedbyuser` `m_updatedby` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL 
