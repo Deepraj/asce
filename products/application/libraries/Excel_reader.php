@@ -1,4 +1,4 @@
-<?php  if (!defined('BASEPATH')) exit('No direct script access allowed');
+<?php
 /* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 
 /**
@@ -100,7 +100,7 @@ define('SPREADSHEET_EXCEL_READER_DEF_NUM_FORMAT',    "%s");
 * @link       http://pear.php.net/package/PackageName
 * @see        OLE, Spreadsheet_Excel_Writer
 */
-class Excel_reader
+class Excel_Reader
 {
     /**
      * Array of worksheets found
@@ -256,9 +256,9 @@ class Excel_reader
      *
      * Some basic initialisation
      */ 
-    function Excel_reader()
+    function __construct()
     {
-	    $this->_ole = new OLERead();
+        $this->_ole = new OLERead();
         $this->setUTFEncoder('iconv');
     }
 
